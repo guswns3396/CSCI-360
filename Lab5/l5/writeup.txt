@@ -1,0 +1,7 @@
+* The number of iterations will help the model converge to the minimum. More iterations will allow the algorithm to get closer to the global minimum, but may end up with diminishing returns if set too high.
+
+* The arhitecture of the model may help with the model. Generally, more layers and neurons per layer the model has, more complex patterns the model can capture, but can suffer from overfitting as well as the problem of vanishing gradient.
+
+* The data can impact the training and thus the performance of the model significantly. If the data is biased, the model will also be biased. This is especially true when the training set was not sampled "fairly" from the dataset. In addition, the number of features as well as number of training examples play a role. Usually, more features and training examples result in more accurate performance, but can lead to overfitting.
+
+* The learning rate plays an important role in model training because it determines how fast the algorithm converges to the minimum. If set too low, it may take a long time to converge. However, if set to high, the algorithm may in fact overshoot and diverge, never actually reaching the minimum.
